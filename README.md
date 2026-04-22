@@ -1,6 +1,8 @@
 # ZingQR - Free QR Code Generator
 
-![ZingQR Logo](https://zingqr.app/og-image.png)
+## 🌐 Live Demo
+
+[🚀 View Live Demo](https://zingqr.vercel.app/)
 
 **ZingQR** is a premium, lightning-fast QR code generator designed for simplicity and professional results. Create, customize, and download high-quality QR codes in seconds—absolutely free and with no signup required.
 
