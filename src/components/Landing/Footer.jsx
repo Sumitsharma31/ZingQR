@@ -10,13 +10,11 @@ const Footer = () => {
           © 2026 ZingQR. All rights reserved.
         </div>
         <div className="flex gap-4">
-          <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full text-slate-600 dark:text-slate-400 hover:text-primary-600 transition-colors">
+          <a href="https://github.com/Sumitsharma31" className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full text-slate-600 dark:text-slate-400 hover:text-primary-600 transition-colors">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full text-slate-600 dark:text-slate-400 hover:text-primary-600 transition-colors">
-            <Twitter className="w-5 h-5" />
-          </a>
-          <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full text-slate-600 dark:text-slate-400 hover:text-primary-600 transition-colors">
+
+          <a href="https://www.linkedin.com/in/sumit-sharma-1906762a2/" className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full text-slate-600 dark:text-slate-400 hover:text-primary-600 transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
         </div>
