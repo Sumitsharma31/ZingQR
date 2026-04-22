@@ -5,10 +5,12 @@ export default function PageLoader() {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    // Start fade-out after a short delay once page assets are ready
-    const fadeTimer = setTimeout(() => setFadeOut(true), 600);
-    // Remove from DOM after fade completes
-    const removeTimer = setTimeout(() => setVisible(false), 1000);
+    // Determine delay based on initial path: 3s for home (/), 800ms for others
+    const displayTime = window.location.pathname === '/' ? 3000 : 800;
+
+    const fadeTimer = setTimeout(() => setFadeOut(true), displayTime);
+    const removeTimer = setTimeout(() => setVisible(false), displayTime + 400);
+
     return () => {
       clearTimeout(fadeTimer);
       clearTimeout(removeTimer);

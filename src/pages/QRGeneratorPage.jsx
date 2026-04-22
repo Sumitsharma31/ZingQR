@@ -12,7 +12,6 @@ const QRGeneratorPage = () => {
     width: 300,
     height: 300,
     type: 'svg',
-    data: url || ' ',
     dotsOptions: { color: '#000000', type: 'square' },
     backgroundOptions: { color: '#ffffff' },
     cornersSquareOptions: { type: 'square', color: '#000000' },
@@ -34,7 +33,7 @@ const QRGeneratorPage = () => {
 
   useEffect(() => {
     if (qrCode) {
-      qrCode.update({ data: url || ' ', ...options });
+      qrCode.update({ ...options, data: url || ' ' });
     }
   }, [url, options, qrCode]);
 
