@@ -1,0 +1,269 @@
+You are a senior web developer tasked with creating a professional QR code generator web application with a stunning animated landing page using Vite, React, and modern UI libraries. Build a complete, production-ready application with the following specifications:
+Part 1: Animated Landing Page
+Landing Page Features
+
+Hero Section
+
+Animated headline with typewriter effect or character-by-character animation
+Compelling subheading with fade-in animation
+Large, centered call-to-action button (Get Started / Launch App)
+Animated background (gradient animation, floating particles, or subtle morphing shapes)
+Scroll-triggered animations (parallax effect on scroll)
+
+
+Feature Showcase Section
+
+Display 4-6 key features with icons
+Each feature card has hover animations (lift, shadow, color change)
+Icon animations on scroll (fade-in, scale-up, rotate)
+Brief description under each feature
+Staggered animation timing for cascading effect
+
+
+How It Works Section
+
+Step-by-step visual guide (3-5 steps)
+Animated step numbers or progress indicators
+Animated illustrations or icons for each step
+Smooth transitions between steps
+Timeline-style layout with connecting lines
+
+
+Benefits/Why Choose Section
+
+Animated stat counters (count up animation on scroll)
+Highlight key advantages with icons
+Testimonials carousel with smooth transitions
+Trust badges and social proof
+
+
+Pricing Section (optional)
+
+Animated pricing cards with hover effects
+Feature comparison tables
+Plan toggle (monthly/yearly) with smooth transition
+
+
+Call-to-Action (CTA) Section
+
+Eye-catching final CTA button
+Animated background or gradient
+Social links with hover animations
+
+
+Navigation Bar
+
+Sticky/fixed header that animates on scroll
+Smooth logo animation
+Navigation links with underline animation
+Mobile hamburger menu with slide-out animation
+Dark mode toggle with smooth transition
+
+
+Footer
+
+Links and information
+Social media icons with hover animations
+Scroll-to-top button with smooth animation
+
+
+
+Landing Page Animation Details
+
+Entrance Animations: Fade-in, slide-in, scale-up, rotate
+Scroll Animations: Reveal on scroll, parallax, stagger animations
+Hover Effects: Scale, color change, shadow, lift
+Micro-interactions: Button ripple effect, icon bounce, text shimmer
+Smooth Transitions: All animations use easing functions (ease-in-out, cubic-bezier)
+Performance: Use Intersection Observer for scroll-triggered animations
+Mobile Optimized: Reduced animations on mobile devices, respects prefers-reduced-motion
+
+
+Part 2: QR Code Generator Web App
+Core Features
+
+QR Code Generation
+
+Input field to accept text, URLs, or any data
+Real-time QR code preview that updates instantly
+Support for various data types (URLs, text, email, phone, WiFi, vCard, SMS)
+Error handling with user-friendly messages
+
+
+Customization Options
+
+Size Control: Adjustable dimensions (preset + custom)
+Color Picker: Custom foreground and background colors
+Error Correction Level: Select L, M, Q, or H
+Border/Margin: Adjustable quiet zone
+Style Options: Different QR code patterns (standard, dots, rounded)
+
+
+Download & Export
+
+Download as PNG, SVG, JPEG
+Copy to clipboard (as image or data URL)
+Print functionality
+Bulk download option
+
+
+Preset Templates
+
+Website URL, Email, Phone, WiFi, vCard, SMS
+Quick-fill forms with validation
+One-click generation
+
+
+History & Management
+
+Recent QR codes stored in localStorage
+Thumbnail previews
+Quick actions (re-download, modify, delete)
+Clear history option
+
+
+User Interface
+
+Responsive design (desktop, tablet, mobile)
+Dark/Light mode toggle
+Live preview pane
+Settings panel with smooth transitions
+Intuitive layout with clear sections
+
+
+
+Technical Requirements
+
+Build Tool: Vite for fast development
+Framework: React with hooks
+QR Code Library: qrcode.react or qr-code-styling
+Styling: Tailwind CSS + CSS animations
+Animations: Framer Motion for complex animations
+Icons: Lucide React
+State Management: React Context or Zustand
+Code Quality: Clean, modular components
+
+Component Structure
+src/
+├── pages/
+│   ├── LandingPage.jsx (main landing page)
+│   └── QRGeneratorPage.jsx (QR generator app)
+├── components/
+│   ├── Landing/
+│   │   ├── Hero.jsx
+│   │   ├── Features.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── Benefits.jsx
+│   │   ├── CTA.jsx
+│   │   ├── Navigation.jsx
+│   │   └── Footer.jsx
+│   └── QRGenerator/
+│   │   ├── QRPreview.jsx
+│   │   ├── InputForm.jsx
+│   │   ├── CustomizationPanel.jsx
+│   │   ├── DownloadButtons.jsx
+│   │   ├── PresetTemplates.jsx
+│   │   └── History.jsx
+├── hooks/
+│   ├── useQRCode.js
+│   ├── useLocalStorage.js
+│   └── useScrollAnimation.js
+├── context/
+│   └── QRContext.jsx
+├── utils/
+│   ├── qrHelpers.js
+│   └── animations.js
+├── styles/
+│   ├── globals.css
+│   └── animations.css
+└── App.jsx
+
+App Structure & Navigation
+
+Landing Page (Default Route /)
+
+Beautiful entry point with animations
+Clear CTA button that scrolls to app or navigates to /app
+
+
+QR Generator Page (Route /app)
+
+Full-featured QR code generator
+Accessible from landing page CTA or navigation menu
+Back to landing page option
+
+
+Navigation Flow
+
+Smooth page transitions with fade animations
+Preserve state when navigating
+
+
+
+
+Design & Styling Requirements
+
+Color Scheme: Modern, professional palette (suggest: primary blue/purple, neutral grays, accent colors)
+Typography: Modern fonts (Inter, Poppins, or similar) with clear hierarchy
+Spacing: Consistent padding and margins following 8px grid system
+Shadows & Depth: Subtle shadows for elevation
+Animations: Smooth, not jarring (duration: 300-500ms for most animations)
+Accessibility: WCAG 2.1 AA compliant, keyboard navigation, alt text for images
+
+
+Animation Libraries & Tools
+
+Framer Motion: Advanced animations and transitions
+React Intersection Observer: Scroll-triggered animations
+CSS Animations: Keyframe animations for simple effects
+Tailwind CSS: Utility-first styling with animation utilities
+
+
+Performance Optimization
+
+Code splitting for landing page and app
+Lazy load components
+Optimize images and SVGs
+Debounce QR code generation
+Use React.memo for heavy components
+Implement error boundaries
+
+
+Deliverables
+
+Landing Page
+
+Fully animated, responsive, professional appearance
+Smooth transitions and micro-interactions
+Mobile-optimized with performance in mind
+Clear navigation to QR generator app
+
+
+QR Code Generator App
+
+All features working seamlessly
+Responsive design for all devices
+Smooth UI transitions and interactions
+Fast, reliable QR code generation and export
+
+
+Code Quality
+
+Well-structured, modular components
+Proper state management
+Comprehensive comments and documentation
+Best practices implemented
+
+
+Deployment Ready
+
+Production-optimized build
+Performance tested
+SEO-friendly (meta tags on landing page)
+Ready for deployment on Vercel, Netlify, or similar
+
+
+
+
+
+
