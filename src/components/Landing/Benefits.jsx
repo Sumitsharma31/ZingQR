@@ -40,7 +40,7 @@ const Benefits = () => {
               </div>
             </div>
             <p className="text-lg italic text-slate-300">
-              "The customization options are incredible. We used ZingQR to create unique codes for our 2024 campaign, and the SVG export quality was perfect for our print billboards."
+              "The customization options are incredible and good. We used ZingQR to create unique codes for our 2024 campaign, and the SVG export quality was perfect for our print billboards."
             </p>
           </div>
         </div>
