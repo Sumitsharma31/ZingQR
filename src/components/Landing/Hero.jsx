@@ -42,8 +42,6 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
-            Free QR Code Generator
-            <br />
             <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 text-transparent bg-clip-text">
               Create Custom QR Codes Instantly
             </span>

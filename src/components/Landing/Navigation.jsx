@@ -11,14 +11,31 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
 
         {/* Brand */}
-        <Link to="/" className="text-2xl font-bold text-primary-600">ZingQR</Link>
+        <Link to="/" title="ZingQR - Free QR Code Generator" className="text-2xl font-bold text-primary-600">ZingQR</Link>
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-slate-600 dark:text-slate-300 hover:text-primary-600 transition-colors">Features</a>
-          <a href="#how-it-works" className="text-slate-600 dark:text-slate-300 hover:text-primary-600 transition-colors">How it Works</a>
-          <Link to="/app" className="px-5 py-2 bg-primary-600 text-white rounded-full font-medium hover:bg-primary-700 transition-all">
-            Launch App
+          <a
+            href="#features"
+            title="QR Code Generator Features"
+            className="text-slate-600 dark:text-slate-300 hover:text-primary-600 transition-colors"
+          >
+            Features
+          </a>
+
+          <a
+            href="#how-it-works"
+            title="How to Generate QR Codes"
+            className="text-slate-600 dark:text-slate-300 hover:text-primary-600 transition-colors"
+          >
+            How it Works
+          </a>
+          <Link
+            to="/app"
+            title="Launch Free QR Code Generator"
+            className="px-5 py-2 bg-primary-600 text-white rounded-full font-medium hover:bg-primary-700 transition-all"
+          >
+            Generate QR Code
           </Link>
         </div>
 
@@ -41,9 +58,10 @@ const Navigation = () => {
           {/* Mobile-only Launch App button */}
           <Link
             to="/app"
+            title="Generate QR Code"
             className="md:hidden px-4 py-2 bg-primary-600 text-white rounded-full text-sm font-medium hover:bg-primary-700 transition-all"
           >
-            Launch
+            Generate
           </Link>
         </div>
 
