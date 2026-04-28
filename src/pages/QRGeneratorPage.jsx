@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import QRCodeStyling from 'qr-code-styling';
+import { Helmet } from "react-helmet-async";
 import { motion } from 'framer-motion';
 import { Download, Copy, Printer, Trash2, History, Settings, ArrowLeft, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -93,19 +94,54 @@ const QRGeneratorPage = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8">
+      <Helmet>
+        <title>ZingQR - Free QR Code Generator Tool | Create & Download QR Codes</title>
+
+        <meta
+          name="description"
+          content="Use ZingQR free QR code generator to create custom QR codes online instantly. Generate, customize, and download QR codes in PNG or SVG format without signup."
+        />
+
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://zingqr.vercel.app/app" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="ZingQR QR Code Generator Tool" />
+        <meta property="og:description" content="Create and download QR codes instantly for free." />
+        <meta property="og:image" content="https://zingqr.vercel.app/og-image.png" />
+
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "ZingQR QR Code Generator",
+            "url": "https://zingqr.vercel.app/app",
+            "applicationCategory": "UtilitiesApplication"
+          })}
+        </script>
+      </Helmet>
       <div className="max-w-6xl mx-auto">
         <header className="flex justify-between items-center mb-8">
           <Link to="/" className="flex items-center text-primary-600 font-bold text-2xl">
             <ArrowLeft className="mr-2" /> Back to Home
           </Link>
-          <h1 className="text-2xl font-bold dark:text-white">ZingQR - Free QR Code Generator</h1>
+          <h1 className="text-2xl font-bold dark:text-white">Free QR Code Generator Tool</h1>
         </header>
+          {/* ✅ Hidden SEO content */}
+        <section className="hidden">
+          <h2>Create Custom QR Codes Online</h2>
+          <p>
+            Use this free QR code generator to create QR codes for URLs, text, and more.
+            Customize colors, styles, and download in PNG or SVG format.
+          </p>
+        </section>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-6">
             <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
               <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
-                Your Content (URL or Text)
+                 Enter URL or Text for QR Code
               </label>
               <div className="flex gap-2">
                 <input
@@ -113,7 +149,7 @@ const QRGeneratorPage = () => {
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
                   className="w-full p-3 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:ring-2 focus:ring-primary-500 outline-none transition-all"
-                  placeholder="Enter URL or text here..."
+                  placeholder="https://example.com"
                 />
               </div>
             </div>

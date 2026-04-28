@@ -33,7 +33,7 @@ const Hero = () => {
             className="mb-6 inline-block"
           >
             <div className="px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-600 dark:text-blue-400 text-sm">
-              ⚡ Free &amp; No Signup Required
+              ⚡ Free QR Code Generator • No Signup Required
             </div>
           </motion.div>
 
@@ -42,10 +42,8 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
-            Create QR Codes
-            <br />
             <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 text-transparent bg-clip-text">
-              Instantly
+              Create Custom QR Codes Instantly
             </span>
           </motion.h1>
 
@@ -54,8 +52,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-lg text-slate-600 dark:text-slate-300 mb-10 max-w-xl"
           >
-            Professional QR codes in seconds. Customize colors, download in multiple formats,
-            and track your QR codes—all for free.
+            Generate free QR codes online instantly. Customize colors, styles, and download high-quality QR codes in PNG or SVG format. No signup required.
           </motion.p>
 
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-12">
@@ -63,7 +60,7 @@ const Hero = () => {
               to="/app"
               className="group px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-semibold flex items-center justify-center gap-2 shadow-lg shadow-blue-500/30 transition"
             >
-              Get Started
+              Generate QR Code
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
             </Link>
 
@@ -120,14 +117,14 @@ const Hero = () => {
                   className="absolute w-full h-[2px] bg-blue-400/40"
                 />
 
-                <QRCode value="https://zingqr.app" size={180} />
+                <QRCode value="https://zingqr.vercel.app" size={180} />
 
                 <p className="text-center mt-4 text-slate-700 dark:text-slate-200 font-medium">
                   Scan Me
                 </p>
 
                 <p className="text-center text-xs text-slate-500 dark:text-slate-400">
-                  zingqr.app
+                  zingQR APP
                 </p>
 
               </motion.div>

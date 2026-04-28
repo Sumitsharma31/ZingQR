@@ -4,18 +4,18 @@ import { CheckCircle } from 'lucide-react';
 
 const steps = [
   {
-    title: 'Enter Content',
-    desc: 'Input your URL, text, or phone number into the generator.',
+    title: 'Enter Content for QR Code',
+    desc: 'Add your website URL, text, or contact details into the QR code generator.',
     step: '01'
   },
   {
-    title: 'Customize Style',
-    desc: 'Pick colors and patterns that match your brand style.',
+    title: 'Customize Your QR Code',
+    desc: 'Change colors, patterns, and styles to create a custom QR code that matches your brand.',
     step: '02'
   },
   {
-    title: 'Download & Use',
-    desc: 'Export as SVG or PNG and place it on your marketing material.',
+    title: 'Download QR Code',
+    desc: 'Download your QR code in PNG or SVG format and use it anywhere online or offline.',
     step: '03'
   }
 ];
@@ -26,9 +26,9 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-            How it works
+            How to Generate QR Codes Online
           </h2>
-          <p className="text-slate-600 dark:text-slate-400">Simple 3-step process to get your QR code ready.</p>
+          <p className="text-slate-600 dark:text-slate-400">Follow these simple steps to create a free QR code using our online QR code generator.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">

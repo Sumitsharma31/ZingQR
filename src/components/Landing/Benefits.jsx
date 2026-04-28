@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { TrendingUp, Users, Globe } from 'lucide-react';
 
 const stats = [
-  { label: 'Daily Codes', value: '10K+', icon: TrendingUp },
-  { label: 'Active Users', value: '50K+', icon: Users },
-  { label: 'Countries', value: '120+', icon: Globe },
+  { label: 'QR Codes Generated Daily', value: '10K+', icon: TrendingUp },
+  { label: 'Active QR Code Users', value: '50K+', icon: Users },
+  { label: 'Countries Using ZingQR', value: '120+', icon: Globe },
 ];
 
 const Benefits = () => {
@@ -15,10 +15,12 @@ const Benefits = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Why thousands trust <br /> <span className="text-primary-400">ZingQR</span>
+              Why ZingQR is the Trusted <br /> <span className="text-primary-400">Free QR Code Generator</span>
             </h2>
             <p className="text-slate-400 text-lg mb-10">
-              We prioritize speed, quality, and ease of use. Our generator is built for professionals who need reliable results without the bloat.
+              ZingQR is a fast and reliable QR code generator trusted by thousands of users worldwide.
+              Create custom QR codes, download in high-quality formats, and use them for marketing,
+              business, or personal needs — all without signup.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               {stats.map((stat, idx) => (
@@ -40,7 +42,7 @@ const Benefits = () => {
               </div>
             </div>
             <p className="text-lg italic text-slate-300">
-              "The customization options are incredible and good. We used ZingQR to create unique codes for our 2024 campaign, and the SVG export quality was perfect for our print billboards."
+              "ZingQR is one of the best free QR code generators we’ve used. The customization options and SVG quality helped us create professional QR codes for our campaigns."
             </p>
           </div>
         </div>

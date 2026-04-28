@@ -4,26 +4,26 @@ import { Zap, Palette, Shield, Smartphone } from 'lucide-react';
 
 const features = [
   {
-    title: 'Instant Generation',
-    desc: 'Create your QR code in real-time as you type. No waiting, no delays.',
+    title: 'Instant QR Code Generation',
+    desc: 'Generate QR codes instantly online as you type. Fast, real-time QR code generator with no delays.',
     icon: Zap,
     color: 'text-yellow-500'
   },
   {
-    title: 'Full Customization',
-    desc: 'Change colors, styles, and sizes to match your brand identity perfectly.',
+    title: 'Custom QR Code Design',
+    desc: 'Create custom QR codes with colors, styles, and sizes to perfectly match your brand identity.',
     icon: Palette,
     color: 'text-purple-500'
   },
   {
-    title: 'Enterprise Grade',
-    desc: 'High-resolution SVG and PNG exports ensure your codes look crisp everywhere.',
+    title: 'High-Quality QR Code Export',
+    desc: 'Download QR codes in high-resolution PNG and SVG formats for print, web, and professional use.',
     icon: Shield,
     color: 'text-blue-500'
   },
   {
-    title: 'Mobile Optimized',
-    desc: 'Every QR code is tested for instant scanning across all mobile devices.',
+    title: 'Mobile-Friendly QR Codes',
+    desc: 'All QR codes are optimized for fast scanning across smartphones and all modern devices.',
     icon: Smartphone,
     color: 'text-green-500'
   }
@@ -34,11 +34,13 @@ const Features = () => {
     <section id="features" className="py-24 px-4 bg-slate-50 dark:bg-slate-800/50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
+          
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-            Everything you need to create <span className="text-primary-600">Perfect QR Codes</span>
+            Powerful Free QR Code Generator Features
           </h2>
           <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            Our generator provides the tools used by top marketers and developers to create engagement.
+            ZingQR provides everything you need to create, customize, and download QR codes online.
+            Generate free QR codes with advanced customization, high-quality export, and instant performance.
           </p>
         </div>
 
@@ -56,6 +58,7 @@ const Features = () => {
                 <feat.icon className={`w-6 h-6 ${feat.color}`} />
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">{feat.title}</h3>
+              
               <p className="text-slate-600 dark:text-slate-400">{feat.desc}</p>
             </motion.div>
           ))}
