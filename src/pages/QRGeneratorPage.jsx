@@ -55,6 +55,9 @@ const QRGeneratorPage = () => {
     }
     if (qrCode) {
       try {
+        // Ensure it's updated with current options before sharing
+        qrCode.update({ ...options, data: url });
+        
         const blob = await qrCode.getRawData("png");
         if (!blob) throw new Error("Failed to get blob");
         
@@ -63,8 +66,8 @@ const QRGeneratorPage = () => {
         if (navigator.canShare && navigator.canShare({ files: [file] })) {
           await navigator.share({
             files: [file],
-            title: "QR Code",
-            text: "Check out my QR code generated with ZingQR!"
+            title: "ZingQR Code",
+            text: "Check out this QR code I created with ZingQR! \n\nGenerate yours at: https://zingqr.vercel.app/",
           });
         } else {
           // Fallback: copy to clipboard or just inform user
@@ -84,6 +87,8 @@ const QRGeneratorPage = () => {
     }
     if (qrCode) {
       try {
+        // Ensure it's updated with current options before downloading
+        qrCode.update({ ...options, data: url });
         await qrCode.download({ extension: ext });
       } catch (error) {
         console.error('Download failed:', error);

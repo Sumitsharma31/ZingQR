@@ -1,0 +1,571 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\vite.config.js",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_vite_config_js",
+      "community": 16,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\App.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_app_jsx",
+      "community": 1,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\App.jsx",
+      "source_location": "L13",
+      "id": "app_app",
+      "community": 1,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\main.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_main_jsx",
+      "community": 17,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "PageLoader.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\PageLoader.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_pageloader_jsx",
+      "community": 2,
+      "norm_label": "pageloader.jsx"
+    },
+    {
+      "label": "PageLoader()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\PageLoader.jsx",
+      "source_location": "L3",
+      "id": "pageloader_pageloader",
+      "community": 2,
+      "norm_label": "pageloader()"
+    },
+    {
+      "label": "ScrollToTop.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\ScrollToTop.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_scrolltotop_jsx",
+      "community": 3,
+      "norm_label": "scrolltotop.jsx"
+    },
+    {
+      "label": "ScrollToTop()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\ScrollToTop.jsx",
+      "source_location": "L4",
+      "id": "scrolltotop_scrolltotop",
+      "community": 3,
+      "norm_label": "scrolltotop()"
+    },
+    {
+      "label": "Benefits.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Benefits.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_benefits_jsx",
+      "community": 4,
+      "norm_label": "benefits.jsx"
+    },
+    {
+      "label": "Benefits()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Benefits.jsx",
+      "source_location": "L11",
+      "id": "benefits_benefits",
+      "community": 4,
+      "norm_label": "benefits()"
+    },
+    {
+      "label": "CTA.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\CTA.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_cta_jsx",
+      "community": 5,
+      "norm_label": "cta.jsx"
+    },
+    {
+      "label": "CTA()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\CTA.jsx",
+      "source_location": "L5",
+      "id": "cta_cta",
+      "community": 5,
+      "norm_label": "cta()"
+    },
+    {
+      "label": "Features.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Features.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_features_jsx",
+      "community": 6,
+      "norm_label": "features.jsx"
+    },
+    {
+      "label": "Features()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Features.jsx",
+      "source_location": "L32",
+      "id": "features_features",
+      "community": 6,
+      "norm_label": "features()"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Footer.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_footer_jsx",
+      "community": 7,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Footer.jsx",
+      "source_location": "L4",
+      "id": "footer_footer",
+      "community": 7,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Hero.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_hero_jsx",
+      "community": 8,
+      "norm_label": "hero.jsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Hero.jsx",
+      "source_location": "L7",
+      "id": "hero_hero",
+      "community": 8,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "HowItWorks.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\HowItWorks.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_howitworks_jsx",
+      "community": 9,
+      "norm_label": "howitworks.jsx"
+    },
+    {
+      "label": "HowItWorks()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\HowItWorks.jsx",
+      "source_location": "L23",
+      "id": "howitworks_howitworks",
+      "community": 9,
+      "norm_label": "howitworks()"
+    },
+    {
+      "label": "Navigation.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Navigation.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_navigation_jsx",
+      "community": 0,
+      "norm_label": "navigation.jsx"
+    },
+    {
+      "label": "Navigation()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Navigation.jsx",
+      "source_location": "L6",
+      "id": "navigation_navigation",
+      "community": 0,
+      "norm_label": "navigation()"
+    },
+    {
+      "label": "ThemeContext.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\context\\ThemeContext.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_context_themecontext_jsx",
+      "community": 0,
+      "norm_label": "themecontext.jsx"
+    },
+    {
+      "label": "ThemeProvider()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\context\\ThemeContext.jsx",
+      "source_location": "L5",
+      "id": "themecontext_themeprovider",
+      "community": 0,
+      "norm_label": "themeprovider()"
+    },
+    {
+      "label": "useTheme()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\context\\ThemeContext.jsx",
+      "source_location": "L33",
+      "id": "themecontext_usetheme",
+      "community": 0,
+      "norm_label": "usetheme()"
+    },
+    {
+      "label": "AboutPage.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\AboutPage.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_aboutpage_jsx",
+      "community": 10,
+      "norm_label": "aboutpage.jsx"
+    },
+    {
+      "label": "AboutPage()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\AboutPage.jsx",
+      "source_location": "L7",
+      "id": "aboutpage_aboutpage",
+      "community": 10,
+      "norm_label": "aboutpage()"
+    },
+    {
+      "label": "ContactPage.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\ContactPage.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_contactpage_jsx",
+      "community": 11,
+      "norm_label": "contactpage.jsx"
+    },
+    {
+      "label": "ContactPage()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\ContactPage.jsx",
+      "source_location": "L7",
+      "id": "contactpage_contactpage",
+      "community": 11,
+      "norm_label": "contactpage()"
+    },
+    {
+      "label": "LandingPage.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\LandingPage.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_landingpage_jsx",
+      "community": 12,
+      "norm_label": "landingpage.jsx"
+    },
+    {
+      "label": "LandingPage()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\LandingPage.jsx",
+      "source_location": "L11",
+      "id": "landingpage_landingpage",
+      "community": 12,
+      "norm_label": "landingpage()"
+    },
+    {
+      "label": "NotFound.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\NotFound.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_notfound_jsx",
+      "community": 13,
+      "norm_label": "notfound.jsx"
+    },
+    {
+      "label": "NotFound()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\NotFound.jsx",
+      "source_location": "L7",
+      "id": "notfound_notfound",
+      "community": 13,
+      "norm_label": "notfound()"
+    },
+    {
+      "label": "PrivacyPolicy.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\PrivacyPolicy.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_privacypolicy_jsx",
+      "community": 14,
+      "norm_label": "privacypolicy.jsx"
+    },
+    {
+      "label": "PrivacyPolicy()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\PrivacyPolicy.jsx",
+      "source_location": "L7",
+      "id": "privacypolicy_privacypolicy",
+      "community": 14,
+      "norm_label": "privacypolicy()"
+    },
+    {
+      "label": "QRGeneratorPage.jsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\QRGeneratorPage.jsx",
+      "source_location": "L1",
+      "id": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_qrgeneratorpage_jsx",
+      "community": 15,
+      "norm_label": "qrgeneratorpage.jsx"
+    },
+    {
+      "label": "QRGeneratorPage()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\QRGeneratorPage.jsx",
+      "source_location": "L7",
+      "id": "qrgeneratorpage_qrgeneratorpage",
+      "community": 15,
+      "norm_label": "qrgeneratorpage()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\App.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_app_jsx",
+      "_tgt": "app_app",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_app_jsx",
+      "target": "app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\PageLoader.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_pageloader_jsx",
+      "_tgt": "pageloader_pageloader",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_pageloader_jsx",
+      "target": "pageloader_pageloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\ScrollToTop.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_scrolltotop_jsx",
+      "_tgt": "scrolltotop_scrolltotop",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_scrolltotop_jsx",
+      "target": "scrolltotop_scrolltotop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Benefits.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_benefits_jsx",
+      "_tgt": "benefits_benefits",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_benefits_jsx",
+      "target": "benefits_benefits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\CTA.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_cta_jsx",
+      "_tgt": "cta_cta",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_cta_jsx",
+      "target": "cta_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Features.jsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_features_jsx",
+      "_tgt": "features_features",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_features_jsx",
+      "target": "features_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Footer.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_footer_jsx",
+      "_tgt": "footer_footer",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_footer_jsx",
+      "target": "footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Hero.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_hero_jsx",
+      "_tgt": "hero_hero",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_hero_jsx",
+      "target": "hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\HowItWorks.jsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_howitworks_jsx",
+      "_tgt": "howitworks_howitworks",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_howitworks_jsx",
+      "target": "howitworks_howitworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Navigation.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_navigation_jsx",
+      "_tgt": "navigation_navigation",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_components_landing_navigation_jsx",
+      "target": "navigation_navigation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\components\\Landing\\Navigation.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "navigation_navigation",
+      "_tgt": "themecontext_usetheme",
+      "source": "navigation_navigation",
+      "target": "themecontext_usetheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\context\\ThemeContext.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_context_themecontext_jsx",
+      "_tgt": "themecontext_themeprovider",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_context_themecontext_jsx",
+      "target": "themecontext_themeprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\context\\ThemeContext.jsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_context_themecontext_jsx",
+      "_tgt": "themecontext_usetheme",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_context_themecontext_jsx",
+      "target": "themecontext_usetheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\AboutPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_aboutpage_jsx",
+      "_tgt": "aboutpage_aboutpage",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_aboutpage_jsx",
+      "target": "aboutpage_aboutpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\ContactPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_contactpage_jsx",
+      "_tgt": "contactpage_contactpage",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_contactpage_jsx",
+      "target": "contactpage_contactpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\LandingPage.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_landingpage_jsx",
+      "_tgt": "landingpage_landingpage",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_landingpage_jsx",
+      "target": "landingpage_landingpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\NotFound.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_notfound_jsx",
+      "_tgt": "notfound_notfound",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_notfound_jsx",
+      "target": "notfound_notfound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\PrivacyPolicy.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_privacypolicy_jsx",
+      "_tgt": "privacypolicy_privacypolicy",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_privacypolicy_jsx",
+      "target": "privacypolicy_privacypolicy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\ssumi\\OneDrive\\Desktop\\qrcodeGenerator\\src\\pages\\QRGeneratorPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_qrgeneratorpage_jsx",
+      "_tgt": "qrgeneratorpage_qrgeneratorpage",
+      "source": "c_users_ssumi_onedrive_desktop_qrcodegenerator_src_pages_qrgeneratorpage_jsx",
+      "target": "qrgeneratorpage_qrgeneratorpage",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
